@@ -1,2 +1,2 @@
 # parallax
-Just a parallax purce css example
+Just a parallax css pure example
