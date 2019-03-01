@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+  
+body{ 
+    margin:0;
+    padding:0;
+    color: white;
+    perspective: 1px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    background-position: center;
+    background-size: cover;
+    z-index:2;
+}
+
+.parallax-content{
+    transform: translateZ(.25px) scale(.75);
+    text-align: center;
+}
+
+.parallax-1{
+    background-image: url("background.png")
+}
+
+.parallax-2{
+    background-image: url("dream-dog.jpg")
+}
+
+h1{
+    font-size: 300%;
+}
+
+pre{
+    background-color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+p{
+    padding: 2rem 5rem;
+}
